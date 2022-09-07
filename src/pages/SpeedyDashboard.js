@@ -88,6 +88,12 @@ export const SpeedyDashboard = () => {
                         <div style={{
                             padding:'10px',
                             borderRadius:'10px',
+                            color:((cellValues.value === "Accepted-All docs returned" && 'white') ||
+                            (cellValues.value === "Accepted-Esign Sent" && 'white') ||
+                            (cellValues.value === "Accepted-Clawback Replacement" && 'white') ||
+                            (cellValues.value === "Accepted-Backend Basis" && 'white') ||
+                            (cellValues.value === "Rejected-Issues with Quantum" && 'white') ||
+                            (cellValues.value === "Rejected-Others" && 'white')),
                              backgroundColor:((cellValues.value === "Accepted-All docs returned" && 'green')||
                             (cellValues.value === "Accepted-Esign Sent" && 'green')||
                             (cellValues.value === "Accepted-Clawback Replacement" && 'green')||
@@ -96,7 +102,7 @@ export const SpeedyDashboard = () => {
                             (cellValues.value === "Rejected-Others" && 'red')||
                             (cellValues.value === "Call Completed-In Review" && 'yellow')||
                             (cellValues.value === "Pending" && 'yellow')||
-                            (cellValues.value === "Client on LTK" && 'yellow')
+                            (cellValues.value === "Client on HK" && 'yellow')
                         
                             )
                             

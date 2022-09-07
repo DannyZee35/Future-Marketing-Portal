@@ -86,7 +86,7 @@ export const EditAdminStatus = () => {
                                     Pending
                                 </option>
                                 <option>
-                                    Client on Ltk
+                                    Client on HK
                                 </option>
                                 <option>
                                     Accepted-All docs returned
@@ -110,7 +110,8 @@ export const EditAdminStatus = () => {
                         </Box>
                         <Box sx={{ width: '100%', marginTop: '50px' }}>
                             <Typography variant="h4" gutterBottom sx={{ fontWeight: 'bold' }}>
-                                Client Images
+                            Client Files:
+
                             </Typography>
                             <Stack spacing={2} direction={{ lg: 'row', md: 'col' }}>
 

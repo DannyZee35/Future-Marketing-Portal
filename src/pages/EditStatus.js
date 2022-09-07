@@ -79,7 +79,7 @@ export const EditStatus = () => {
                                     Pending
                                 </option>
                                 <option>
-                                    Client on LTK
+                                    Client on HK
                                 </option>
                                 <option>
                                     Accepted-All docs returned
@@ -103,7 +103,8 @@ export const EditStatus = () => {
                         </Box>
                         <Box sx={{ width: '100%', marginTop: '50px' }}>
                             <Typography variant="h4" gutterBottom sx={{ fontWeight: 'bold' }}>
-                                Client Images
+                            Client Files:
+
                             </Typography>
                             <Stack spacing={2} direction={{ lg: 'row', md: 'col' }}>
 

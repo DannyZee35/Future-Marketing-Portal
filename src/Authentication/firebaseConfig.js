@@ -4,14 +4,15 @@ import { getAnalytics } from "firebase/analytics";
 import { getAuth } from "firebase/auth";
 import { getStorage } from "firebase/storage";
 import { getFirestore } from "firebase/firestore";
+
 const firebaseConfig = {
-  apiKey: "AIzaSyBhQUq2dzrsrrv71DOKxOp4Y8DtB13V6qM",
-  authDomain: "projectsecond-56fdf.firebaseapp.com",
-  projectId: "projectsecond-56fdf",
-  storageBucket: "projectsecond-56fdf.appspot.com",
-  messagingSenderId: "398463375803",
-  appId: "1:398463375803:web:88db35971df28c595c8c9e",
-  measurementId: "G-V0MYDQSVTG"
+  apiKey: "AIzaSyD0Jz1WHMsHW3bUcr3TZvIm5-bel-5-ghk",
+  authDomain: "futuremarketing-6deb5.firebaseapp.com",
+  projectId: "futuremarketing-6deb5",
+  storageBucket: "futuremarketing-6deb5.appspot.com",
+  messagingSenderId: "170666124528",
+  appId: "1:170666124528:web:337b069a6f4025d9108e35",
+  measurementId: "G-LKWBH65P4G"
 };
 
 // Initialize Firebase

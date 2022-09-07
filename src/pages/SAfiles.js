@@ -78,7 +78,8 @@ export const SAfiles = () => {
                         </Box>
                         <Box sx={{ width: '100%', marginTop: '50px' }}>
                             <Typography variant="h4" gutterBottom sx={{ fontWeight: 'bold' }}>
-                                Client Images
+                            Client Files:
+
                             </Typography>
                             <Stack spacing={2} direction={{ lg: 'row', md: 'row' }}>
 
